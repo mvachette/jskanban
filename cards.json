@@ -1,0 +1,15 @@
+[{
+	"uid" : "1",
+	"column": "backlog",
+	"title" : "First card that have a globally long title to describe the subject",
+	"text" : "this is the first card",
+	"complexity": "5",
+	"value": "40"
+},{
+	"uid" : "2",
+	"column": "current",
+	"title" : "Another card",
+	"text" : "this is the another card",
+	"complexity": "2",
+	"value": "60"
+}]

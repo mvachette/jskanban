@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" media="screen">
+		<link href="jskanban.css" rel="stylesheet" media="screen">
+	</head
+	<body>
+		<h1>jsKanban Demo</h1>
+		
+		<div id="kanban"></div>
+		
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
+		<script src="jsKanban.js"></script>
+		<script type="text/javascript">
+			$().ready(function() {
+				var options = {
+					onMoveCard: function (card, columnFrom, columnTo) { 
+						//console.log(card);
+					},
+					onDeleteCard: function (card) {
+			
+					},
+			
+					columns: [ //rename as "data" ??
+						{
+							uid: 'backlog',
+							title : 'Backlog',
+							color : '',
+						},
+						{
+							uid: 'next',
+							title : 'Next 3',
+						},{
+							uid: 'current',
+							title : 'Current Work',
+						},{
+							uid: 'done',
+							title : 'Done',
+						}
+					]
+				}
+				var kanban = new jsKanban(options);
+				kanban.render();
+				
+			});
+		</script>
+	</body>
+</html>
