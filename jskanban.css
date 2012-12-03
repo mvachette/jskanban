@@ -1,0 +1,48 @@
+* {
+	color: silver;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.jsk-column {
+	padding: 5px;
+	float:left;
+	width:200px;
+}
+.jsk-column > h2{
+	margin-bottom: 10px;
+}
+.jsk-column-cards {
+	border-top: 1px solid silver;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+
+.jsk-card {
+	padding: 2px 5px;
+	margin: 10px 0;
+	border: 0px solid silver;
+	height: 50px;
+	cursor: pointer;
+	background: #DDD;
+	overflow: hidden; text-overflow: ellipsis;
+	word-wrap: nowrap;
+}
+
+.jsk-card-info {
+	float: right;
+}
+
+.jsk-card-complexity {
+	color: red;
+}
+.jsk-card-value {
+	color: black;
+}
+.jsk-card-placeholder {
+	height: 50px;
+	margin: 10px 0;
+	border: 1px dashed silver	;
+}
+.jsk-card-moving {
+	cursor: move;
+	transform: rotate(-5deg);
+}
