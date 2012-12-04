@@ -1,26 +1,27 @@
+
 # jskanban #
 
 JsKanban is a small javascript lib to display a simple but useful virtual kanban board.
 
 ## Capabilities ##
-### What it does? ###
+### What does it do? ###
 
 - Display kanban columns and card
 - Load data from JSON
 - Card editing
 
-### What it does'nt? ###
-- Save cards state and positions (it should be done the way is yours, using the provided callback functions)
+### What doesn't it do? ###
+- Save cards state and positions (you should do it yourself, using the provided callback functions)
 
-## How to use ##
+## How to use it ##
 
-jsKban is build on top of Jquery, JqueryUI and Undersocre JS, so you need to include it in your project.
+jsKban is built on top of Jquery, JqueryUI and Undersocre JS, so you need to include these libraries in your project.
 
-jsKanban needs only a div to render into. 
+jsKanban only needs a div to render into. 
 
-The columns definitions shoud be declared when creatin the jsKanban object.
+The column definitions shoud be declared when creating the jsKanban object.
 
-The cards should be avaliable in JSON format at an uri that should be specified in jsKanban options.
+The cards should be available in JSON format at an URI that should be specified in the jsKanban options.
 
 There is a simple but quite complete example (see the "example" folder).
 
