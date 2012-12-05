@@ -24,13 +24,10 @@
 		<script type="text/javascript">
 			$().ready(function() {
 				var options = {
-					onMoveCard: function (card, columnFrom, columnTo) { 
-						//console.log(card);
+					onMoveCard: function (card) { 
+						console.log('Card "' + card.title + '" has been move to column "' + card.column + '"');
 					},
-					onDeleteCard: function (card) {
-			
-					},
-			
+					
 					columns: {
 						'backlog' : {
 							uid: 'backlog',
