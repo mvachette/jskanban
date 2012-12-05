@@ -2,7 +2,7 @@
 	"uid" : "1",
 	"column": "backlog",
 	"title" : "First card that have a globally long title to describe the subject",
-	"text" : "this is the first card",
+	"text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet elit nunc, id posuere ipsum. Cras aliquam justo quis neque mattis non pretium diam molestie. Nulla rhoncus gravida dictum. Aliquam erat volutpat. Duis sed nisi id libero rutrum tempus at et dui. Donec posuere, nisi a gravida porta, nisi odio mattis urna, ut blandit augue nisl vitae libero. Nulla facilisi. Vivamus at tincidunt lectus. Donec accumsan quam malesuada justo malesuada rhoncus. Donec sit amet sem dui. Curabitur elementum blandit bibendum. Donec mattis ligula ac urna luctus posuere. Cras vestibulum dictum dui in commodo. Nam lorem nulla, congue non condimentum eu, consequat ac orci. Nunc sit amet nunc purus, eu ullamcorper neque. ",
 	"complexity": "5",
 	"value": "40"
 },{
