@@ -1,7 +1,4 @@
-body {
-	color: silver;
-	font-family: Helvetica,Arial,sans-serif;
-}
+
 
 .jsk-column {
 	padding: 5px;
@@ -45,5 +42,5 @@ body {
 }
 .jsk-card-moving {
 	cursor: move;
-	transform: rotate(-5deg);
+	transform: rotate(5deg);
 }

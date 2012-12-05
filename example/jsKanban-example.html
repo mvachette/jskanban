@@ -5,6 +5,12 @@
 		
 		<link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" media="screen">
 		<link href="../lib/jskanban.css" rel="stylesheet" media="screen">
+		<style>
+			body {
+				color: silver;
+				font-family: Helvetica,Arial,sans-serif;
+			}
+		</style>
 	</head
 	<body>
 		<h1>jsKanban Demo</h1>
@@ -25,23 +31,25 @@
 			
 					},
 			
-					columns: [ //rename as "data" ??
-						{
+					columns: {
+						'backlog' : {
 							uid: 'backlog',
 							title : 'Backlog',
 							color : '',
 						},
-						{
+						'next' : {
 							uid: 'next',
 							title : 'Next 3',
-						},{
+						},
+						'current' : {
 							uid: 'current',
 							title : 'Current Work',
-						},{
+						},
+						'done' : {
 							uid: 'done',
 							title : 'Done',
 						}
-					]
+					}
 				}
 				var kanban = new jsKanban(options);
 				kanban.render();
